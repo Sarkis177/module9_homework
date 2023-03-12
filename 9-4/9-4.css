@@ -1,0 +1,93 @@
+.form {
+    display: grid;
+    width: 400px;
+    height: 250px;
+    background: #7AE600;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 2px solid;
+}
+
+.form p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.j-result {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.input-text {
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.button-submit {
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #E5E600;
+    font-size: 20px;
+    border-radius: 10px;
+    border: #00bfff;
+}
+
+.active_error {
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #d6000071;
+    margin: 0 auto;
+}
+
+.card {
+    width: 200px;
+    margin: 20px;
+}
+
+.card-image {
+    display: block;
+    width: 200px;
+    height: 150px;
+}
+
+.card p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.result {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    font-size: 30px;
+}
+
+.error_number {
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+}
+
+.error_number p {
+    text-align: center;
+    background-color: red;
+    font-size: 20px;
+}
